@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Info.plist Security Analyzer - Extract attack surface and security configs
-Usage: python plist_parser.py <path_to_Info.plist>
+Usage: python plist_recon.py <path_to_Info.plist>
 """
 
 import sys
@@ -372,7 +372,7 @@ def main():
     
     parser = argparse.ArgumentParser(
         description='iOS/macOS Info.plist Attack Surface Analyzer',
-        usage='python plist_parser.py <Info.plist>'
+        usage='python plist_recon.py <Info.plist>'
     )
     parser.add_argument('file', help='Path to Info.plist file')
     
