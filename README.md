@@ -28,7 +28,7 @@ This tool parses the binary or XML `Info.plist` file found in Apple applications
 
 2.  **Make executable:**
     ```bash
-    chmod +x plist_parser.py
+    chmod +x plist_recon.py
     ```
 
 ---
